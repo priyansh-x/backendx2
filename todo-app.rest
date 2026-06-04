@@ -1,2 +1,11 @@
 ### GET / 
 GET http://localhost:8080
+
+###
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+    "username": "admin@x.com",
+    "password": "admin1234"
+}
