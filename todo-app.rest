@@ -40,3 +40,7 @@ Content-Type: application/json
 {
     "completed":1 
 }
+
+### DELETE a Todo
+DELETE http://localhost:8080/todos/2
+Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzgwODMyNzM3LCJleHAiOjE3ODA5MTkxMzd9.B8-7DMhNbdKDnBEprrnzgS9Rje9vL36JMsjabBofKZA"
